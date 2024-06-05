@@ -162,7 +162,7 @@ class MainWindow(Gtk.ApplicationWindow):
         self.about.set_website("https://www.instagram.com/mrm00ns?igsh=dWFkZnk2Y3ZtdTVj")
         self.about.set_website_label("Mi instagram")
         self.about.set_version("2.0")
-        self.about.set_logo("example")
+        self.about.set_logo_icon_name("example")
         self.about.set_visible(True)
 
     def on_button_clicked(self, button):
